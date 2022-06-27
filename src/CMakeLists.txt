@@ -1,4 +1,4 @@
-add_library(MarbleMarcherSources
+add_library(GlassSources
   Level.cpp
   Level.h
   Overlays.cpp
