@@ -1,13 +1,12 @@
-# Marble Marcher
+# Glass
 
-The goal of the game is to reach the flag as quickly as possible.  But be careful not to
-fall off the level or get crushed by the fractal! 
+Physics game about 3 Dimensional Fractals and moving a glass marble to a goal
 
 ## Building
 ### MacOS
 I'm not going to compile a MacOS binary. Ya'll can figure it out ;)
 
-###Linux
+### Linux
 * `cd Glass`
 * `mkdir build && cd build`
 * `cmake ..`
@@ -15,5 +14,5 @@ I'm not going to compile a MacOS binary. Ya'll can figure it out ;)
 * `cmake --build build`
 * `cp build/Glass ./`
 
-###Windows
+### Windows
 I'm going to compile a binary for ya'll
