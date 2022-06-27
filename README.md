@@ -15,4 +15,4 @@ I'm not going to compile a MacOS binary. Ya'll can figure it out ;)
 * `cp build/Glass ./`
 
 ### Windows
-I'm going to compile a binary for ya'll
+I'm going to compile a binary for ya'll soon
