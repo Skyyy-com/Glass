@@ -13,7 +13,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(2.95227f, 2.65057f, 1.11848f),   //Flag Position
     -4.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Jump The Crater"),                              //Description
+    "Genesis"),                                      //Description
 
   //Level 2   
   Level(
@@ -27,7 +27,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(3.40191f, 4.065f, 3.48312f),     //Flag Position
     -4.5f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Too Many Trees"),                               //Description
+    "Broccoli Town"),                                //Description
 
   //Level 3
   Level(
@@ -41,7 +41,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, -6.25f, 0.0f),             //Flag Position
     -7.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Hole In One"),                                  //Description
+    "Dropper"),                                      //Description
 
   //Level 4
   Level(
@@ -55,7 +55,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, -2.25f, 0.0f),             //Flag Position
     -999.0f,                                         //Death Barrier
     true,                                            //Is Planet
-    "Around The World"),                             //Description
+    "Mr. Worldwide"),                                //Description
 
   //Level 5
   Level(
@@ -69,7 +69,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(-0.514117f, 3.14f, -2.01516f),   //Flag Position
     -3.8f,                                           //Death Barrier
     false,                                           //Is Planet
-    "The Hills Are Alive",                           //Description
+    "Wait? They Can Do That?",                       //Description
     0.0f, 0.06f, 0.0f),                              //Animation
 
   //Level 6
@@ -84,7 +84,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, 2.84448f, -2.71705f),      //Flag Position
     -4.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Beware Of Bumps"),                              //Description
+    "Dont Fall"),                                    //Description
 
   //Level 7
   Level(
@@ -98,7 +98,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, 3.68893f, -0.604513f),     //Flag Position
     -5.5f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Mountain Climbing"),                            //Description
+    "Mountain Time"),                                //Description
   
   //Level 8
   Level(
@@ -112,7 +112,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, 3.64236f, 3.80f),          //Flag Position
     -3.6f,                                           //Death Barrier
     false,                                           //Is Planet
-    "The Catwalk",                                   //Description
+    "The Runway",                                    //Description
     0.0f, 0.0f, 0.05f),                              //Animation
 
   //Level 9
@@ -127,7 +127,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(4.63f, 3.61f, 0.0f),             //Flag Position
     -5.5f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Mind The Gap"),                                 //Description
+    "Big Ol Hole"),                                  //Description
 
   //Level 10
   Level(
@@ -141,7 +141,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, 2.13651f, 1.74782f),       //Flag Position
     -3.6f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Don't Get Crushed",                             //Description
+    "Mr Doctor Strangest",                           //Description
     0.1f, 0.0f, 0.0f),                               //Animation
 
   //Level 11
@@ -156,7 +156,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(2.88924f, 3.73f, 0.0f),          //Flag Position
     -4.5f,                                           //Death Barrier
     false,                                           //Is Planet
-    "The Sponge"),                                   //Description
+    "Baby Sponge"),                                   //Description
 
   //Level 12
   Level(
@@ -170,7 +170,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(2.30432f, 0.0244069f, -2.31072f),//Flag Position
     -1.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Ride The Gecko",                                //Description
+    "Lizardo",                                       //Description
     0.02f, 0.0f, 0.0f),                              //Animation
 
   //Level 13
@@ -185,7 +185,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, 6.72f, 0.0f),              //Flag Position
     -7.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Build Up Speed"),                               //Description
+    "Run"),                                          //Description
 
   //Level 14
   Level(
@@ -199,7 +199,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(-1.39536f, 0.641835f, 0.0f),     //Flag Position
     -2.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Around The Citadel"),                           //Description
+    "Find The Flag"),                                //Description
 
   //Level 15
   Level(
@@ -213,7 +213,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0, -2.12f, 0.0),               //Flag Position
     -999.0f,                                         //Death Barrier
     true,                                            //Is Planet
-    "Planet Crusher",                                //Description
+    "!!!",                                           //Description
     0.0f, 0.08f, 0.0f),                              //Animation
 
   Level(
@@ -227,7 +227,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(-1.04172f, 1.414f, -1.09742f),   //Flag Position
     -2.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Top Of The Citadel"),                           //Description
+    "Top Of The World"),                             //Description
 
   Level(
     1.8093f, -3.165f, -3.2094777f,                   //Scale, Angle1, Angle2
@@ -254,7 +254,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, 0.396f, -2.38815f),        //Flag Position
     -5.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "SpongeBOB"),                                 //Description
+    "Spong- SquareBob"),                             //Description
 
   Level(
     1.91f, 0.06f, -0.76f,                            //Scale, Angle1, Angle2
@@ -267,7 +267,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, -3.77f, 0.0f),             //Flag Position
     -999.0f,                                         //Death Barrier
     true,                                            //Is Planet
-    "The Crown Jewels",                              //Description
+    "OOO Pretty",                                    //Description
     0.0f, 0.05f, 0.0f),                              //Animation
 
   Level(
@@ -281,20 +281,20 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(1.168f, 3.195f, -2.8491f),       //Flag Position
     -5.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Expressways"),                                  //Description
+    "Racecar"),                                      //Description
 
   Level(
     2.03413f, 1.688f, -1.57798f,                     //Scale, Angle1, Angle2
     Eigen::Vector3f(-4.803822f, -4.1f, -1.39063f),   //Offset
     Eigen::Vector3f(-0.95f, -0.16f, 0.14f),          //Color
-    0.000055f,                                          //Marble Radius
+    0.020055f,                                       //Marble Radius
     1.570796f,                                       //Start Look Direction
     7.0f,                                            //Orbit Distance
     Eigen::Vector3f(3.77655f, 4.7211f, 0.0f),        //Marble Position
     Eigen::Vector3f(-3.77655f, 4.716f, 0.0f),        //Flag Position
     -5.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Bunny Hops"),                                   //Description
+    "BOUNCE!!"),                                     //Description
 
   Level(
     1.6516888f, 0.026083898f, -0.7996324f,           //Scale, Angle1, Angle2
@@ -307,7 +307,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, -1.01f, -3.94f),           //Flag Position
     -6.5f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Asteroid Field"),                               //Description
+    "Rats Raw"),                                     //Description
 
   Level(
     1.77746f, 4.62318f, 0.0707307f,                  //Scale, Angle1, Angle2
@@ -320,7 +320,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(-3.03669f, 4.331f, 0.0f),
 	-5.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Lily Pads"),                                    //Description
+    "Hopscotch"),                                    //Description
 
   Level(
     2.13f, -1.77f, -1.62f,                           //Scale, Angle1, Angle2
@@ -333,7 +333,7 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.479104f,  2.177f, 4.29408f),
 	-4.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Fatal Fissures"),                               //Description
+    "Skeletal Plates"),                                  //Description
   
   Level(
 	1.95f, 1.5f, 0.0f,
