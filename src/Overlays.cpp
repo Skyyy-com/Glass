@@ -40,13 +40,12 @@ Overlays::Texts Overlays::GetOption(Texts from, Texts to) {
 
 void Overlays::UpdateMenu(float mouse_x, float mouse_y) {
   //Update text boxes
-  MakeText("Marble\nMarcher", 60, 20, 72, sf::Color::White, all_text[TITLE]);
+  MakeText("Glass", 60, 20, 72, sf::Color::White, all_text[TITLE]);
   MakeText("Play", 80, 230, 60, sf::Color::White, all_text[PLAY]);
   MakeText("Levels", 80, 300, 60, sf::Color::White, all_text[LEVELS]);
   MakeText("Controls", 80, 370, 60, sf::Color::White, all_text[CONTROLS]);
   MakeText("Screen Saver", 80, 440, 60, sf::Color::White, all_text[SCREEN_SAVER]);
   MakeText("Exit", 80, 510, 60, sf::Color::White, all_text[EXIT]);
-  MakeText("\xA9""2019 CodeParade 1.1.1\nMusic by PettyTheft", 16, 652, 32, sf::Color::White, all_text[CREDITS], true);
   all_text[TITLE].setLineSpacing(0.76f);
   all_text[CREDITS].setLineSpacing(0.9f);
 
