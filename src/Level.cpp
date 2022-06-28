@@ -88,23 +88,23 @@ const Level all_levels[num_levels] = {
 
   //Level 7
   Level(
-    2.77f, -1.45f, 3.95f,                            //Scale, Angle1, Angle2
+    1.35f, -1.35f, -3.55f,                           //Scale, Angle1, Angle2
     Eigen::Vector3f(-1.55f, -0.13f, -2.52f),         //Offset
-    Eigen::Vector3f(-1.17f, -0.55f, -0.3f),          //Color
+    Eigen::Vector3f(1.5f, 0.55f, 0.0f),             //Color
     0.077f,                                          //Marble Radius
     0.0f,                                            //Start Look Direction
-    4.3f,                                            //Orbit Distance
-    Eigen::Vector3f(0.0f, 1.36453f, -2.5f),          //Marble Position
-    Eigen::Vector3f(0.0f, 3.50f, -0.5f),             //Flag Position
-    -5.5f,                                           //Death Barrier
-    false,                                           //Is Planet
-    "Mountain Time"),                                //Description
+    9.9f,                                            //Orbit Distance
+    Eigen::Vector3f(-1.75f, 5.0f, 0.0f),             //Marble Position
+    Eigen::Vector3f(0.0f, -5.0f, 0.0f),              //Flag Position
+    -55.5f,                                           //Death Barrier
+    true,                                            //Is Planet
+    "The Power Of The Mind"),                                //Description
   
   //Level 8
   Level(
     1.87f, -3.12f, 0.02f,                            //Scale, Angle1, Angle2
     Eigen::Vector3f(-3.57f, 0.129f, 2.95f),          //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.73f, 0.10f, 0.30f),            //Color
     0.02f,                                           //Marble Radius
     3.14159f,                                        //Start Look Direction
     4.2f,                                            //Orbit Distance
@@ -113,13 +113,13 @@ const Level all_levels[num_levels] = {
     -3.6f,                                           //Death Barrier
     false,                                           //Is Planet
     "The Runway",                                    //Description
-    0.0f, 0.0f, 0.05f),                              //Animation
+    0.0f, 0.0f, -0.10f),                             //Animation
 
   //Level 9
   Level(
     1.81f, -4.84f, -2.99f,                           //Scale, Angle1, Angle2
     Eigen::Vector3f(-2.905f, 0.765f, -4.165f),       //Offset
-    Eigen::Vector3f(0.16f, 0.38f, 0.15f),            //Color
+    Eigen::Vector3f(0.75f, 0.50f, 0.55f),            //Color
     0.022f,                                          //Marble Radius
     -1.570796f,                                      //Start Look Direction
     4.5f,                                            //Orbit Distance
