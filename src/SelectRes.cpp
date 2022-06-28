@@ -2,7 +2,7 @@
 #include "Res.h"
 
 const Resolution all_resolutions[num_resolutions] = {
-  Resolution(320, 180, "I have potato?"),
+  Resolution(320, 180, "Potato:"),
   Resolution(640, 360, "GTX 960 or lower:"),
   Resolution(960, 540, "GTX 970 or similar:"),
   Resolution(1280, 720, "GTX 980 or similar:"),
@@ -61,7 +61,7 @@ sf::Text SelectRes::MakeText(const char* str, float x, float y, int size, bool s
 const Resolution* SelectRes::Run() {
   //Create the window
   sf::VideoMode window_size(640, 600, 24);
-  sf::RenderWindow window(window_size, "Marble Marcher", sf::Style::Close);
+  sf::RenderWindow window(window_size, "Glass", sf::Style::Close);
   window.setVerticalSyncEnabled(true);
   window.requestFocus();
 

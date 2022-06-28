@@ -138,9 +138,9 @@ int main(int argc, char *argv[]) {
 
   //Get the directory for saving and loading high scores
 #ifdef _WIN32
-  const std::string save_dir = std::string(std::getenv("APPDATA")) + "\\MarbleMarcher";
+  const std::string save_dir = std::string(std::getenv("APPDATA")) + "\\Glass";
 #else
-  const std::string save_dir = std::string(std::getenv("HOME")) + "/.MarbleMarcher";
+  const std::string save_dir = std::string(std::getenv("HOME")) + "/.GLass";
 #endif
   
   if (!DirExists(save_dir.c_str())) {
@@ -185,7 +185,7 @@ int main(int argc, char *argv[]) {
     screen_size = sf::VideoMode(resolution->width, resolution->height, 24);
     window_style = sf::Style::Close;
   }
-  sf::RenderWindow window(screen_size, "Marble Marcher", window_style, settings);
+  sf::RenderWindow window(screen_size, "Glass", window_style, settings);
   window.setVerticalSyncEnabled(true);
   window.setKeyRepeatEnabled(false);
   window.requestFocus();
@@ -445,7 +445,7 @@ int main(int argc, char *argv[]) {
       const float force_ud =
         (all_keys[sf::Keyboard::Down] || all_keys[sf::Keyboard::S] ? -1.0f : 0.0f) +
         (all_keys[sf::Keyboard::Up] || all_keys[sf::Keyboard::W] ? 1.0f : 0.0f);
-
+	  
       //Collect mouse input
       const sf::Vector2i mouse_delta = mouse_pos - screen_center;
       sf::Mouse::setPosition(screen_center, window);

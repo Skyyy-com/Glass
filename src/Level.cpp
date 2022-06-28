@@ -5,7 +5,7 @@ const Level all_levels[num_levels] = {
   Level(
     1.8f, -0.12f, 0.5f,                              //Scale, Angle1, Angle2
     Eigen::Vector3f(-2.12f, -2.75f, 0.49f),          //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.53f, 0.37f, 0.55f),            //Color
     0.035f,                                          //Marble Radius
     -2.0f,                                           //Start Look Direction
     3.3f,                                            //Orbit Distance
@@ -19,8 +19,8 @@ const Level all_levels[num_levels] = {
   Level(
     1.9073f, -9.83f, -1.16f,                         //Scale, Angle1, Angle2
     Eigen::Vector3f(-3.508f, -3.593f, 3.295f),       //Offset
-    Eigen::Vector3f(-0.34f, 0.12f, -0.08f),          //Color
-    0.04f,                                           //Marble Radius
+    Eigen::Vector3f(-0.13f, 0.53f, -0.07f),          //Color
+    0.03f,                                           //Marble Radius
     -2.365f,                                         //Start Look Direction
     5.8f,                                            //Orbit Distance
     Eigen::Vector3f(-3.40191f, 4.14347f, -3.48312f), //Marble Position
@@ -33,7 +33,7 @@ const Level all_levels[num_levels] = {
   Level(
     2.02f, -1.57f, 1.62f,                            //Scale, Angle1, Angle2
     Eigen::Vector3f(-3.31f, 6.19f, 1.53f),           //Offset
-    Eigen::Vector3f(0.12f, -0.09f, -0.09f),          //Color
+    Eigen::Vector3f(0.13f, 0.55f, 0.10f),           //Color
     0.009f,                                          //Marble Radius
     1.570796f,                                       //Start Look Direction
     7.0f,                                            //Orbit Distance
@@ -47,7 +47,7 @@ const Level all_levels[num_levels] = {
   Level(
     1.65f, 0.37f, 5.26f,                             //Scale, Angle1, Angle2
     Eigen::Vector3f(-1.41f, -0.22f, -0.77f),         //Offset
-    Eigen::Vector3f(0.14f, -1.71f, 0.31f),           //Color
+    Eigen::Vector3f(0.01f, 1.50f, -0.75f),           //Color
     0.01f,                                           //Marble Radius
     3.14159f,                                        //Start Look Direction
     3.1f,                                            //Orbit Distance
@@ -61,7 +61,7 @@ const Level all_levels[num_levels] = {
   Level(
     1.77f, -0.22f, 5.62f,                            //Scale, Angle1, Angle2
     Eigen::Vector3f(-2.08f, -1.42f, -1.93f),         //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.77f, -0.55f, -0.35f),          //Color
     0.02f,                                           //Marble Radius
     0.545116f,                                       //Start Look Direction
     3.3f,                                            //Orbit Distance
@@ -74,9 +74,9 @@ const Level all_levels[num_levels] = {
 
   //Level 6
   Level(
-    1.66f, 1.52f, 0.19f,                             //Scale, Angle1, Angle2
+    1.66f, 1.53f, 0.20f,                             //Scale, Angle1, Angle2
     Eigen::Vector3f(-3.83f, -1.94f, -1.09f),         //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.55f, 0.05f, 0.20f),            //Color
     0.02f,                                           //Marble Radius
     0.0f,                                            //Start Look Direction
     3.1f,                                            //Orbit Distance
@@ -88,14 +88,14 @@ const Level all_levels[num_levels] = {
 
   //Level 7
   Level(
-    1.58f, -1.45f, 3.95f,                            //Scale, Angle1, Angle2
+    2.77f, -1.45f, 3.95f,                            //Scale, Angle1, Angle2
     Eigen::Vector3f(-1.55f, -0.13f, -2.52f),         //Offset
-    Eigen::Vector3f(-1.17f, -0.4f, -1.0f),           //Color
-    0.02f,                                           //Marble Radius
+    Eigen::Vector3f(-1.17f, -0.55f, -0.3f),          //Color
+    0.077f,                                          //Marble Radius
     0.0f,                                            //Start Look Direction
     4.3f,                                            //Orbit Distance
-    Eigen::Vector3f(0.0f, 3.36453f, 2.28284f),       //Marble Position
-    Eigen::Vector3f(0.0f, 3.68893f, -0.604513f),     //Flag Position
+    Eigen::Vector3f(0.0f, 1.36453f, -2.5f),          //Marble Position
+    Eigen::Vector3f(0.0f, 3.50f, -0.5f),             //Flag Position
     -5.5f,                                           //Death Barrier
     false,                                           //Is Planet
     "Mountain Time"),                                //Description

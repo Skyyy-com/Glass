@@ -222,10 +222,10 @@ void Overlays::DrawArrow(sf::RenderWindow& window, const sf::Vector3f& v3) {
 
 void Overlays::DrawCredits(sf::RenderWindow& window, bool fullrun, int t) {
   const char* txt =
-    "  Congratulations, you beat all the levels!\n\n\n\n"
+    "THANK YOU FOR PLAYING\n\n\n\n"
     "As a reward, cheats have been unlocked!\n"
-    "Activate them with the F1 key during gameplay.\n\n"
-    "Thanks for playing!";
+    "Activate them with the F1 key during gameplay.\n\n";
+
   sf::Text text;
   MakeText(txt, 100, 100, 44, sf::Color::White, text);
   text.setLineSpacing(1.3f);
