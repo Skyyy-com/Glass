@@ -31,17 +31,17 @@ const Level all_levels[num_levels] = {
 
   //Level 3
   Level(
-    2.02f, -1.57f, 1.62f,                            //Scale, Angle1, Angle2
-    Eigen::Vector3f(-3.31f, 6.19f, 1.53f),           //Offset
-    Eigen::Vector3f(0.13f, 0.55f, 0.10f),           //Color
-    0.009f,                                          //Marble Radius
+    1.25f, -1.55f, 1.77f,                            //Scale, Angle1, Angle2
+    Eigen::Vector3f(-3.35f, 1.75f, 1.55f),           //Offset
+    Eigen::Vector3f(0.13f, 0.55f, 0.10f),            //Color
+    0.01f,                                           //Marble Radius
     1.570796f,                                       //Start Look Direction
     7.0f,                                            //Orbit Distance
-    Eigen::Vector3f(3.18387f, 5.99466f, 0.0f),       //Marble Position
-    Eigen::Vector3f(0.0f, -6.25f, 0.0f),             //Flag Position
+    Eigen::Vector3f(3.25f, 7.75f, 0.0f),             //Marble Position
+    Eigen::Vector3f(-5.5f, 6.50f, -2.5f),            //Flag Position
     -7.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Dropper"),                                      //Description
+    "Purple Planet"),                                //Description
 
   //Level 4
   Level(
@@ -90,15 +90,15 @@ const Level all_levels[num_levels] = {
   Level(
     1.35f, -1.35f, -3.55f,                           //Scale, Angle1, Angle2
     Eigen::Vector3f(-1.55f, -0.13f, -2.52f),         //Offset
-    Eigen::Vector3f(1.5f, 0.55f, 0.0f),             //Color
+    Eigen::Vector3f(1.5f, 0.55f, 0.0f),              //Color
     0.077f,                                          //Marble Radius
     0.0f,                                            //Start Look Direction
     9.9f,                                            //Orbit Distance
     Eigen::Vector3f(-1.75f, 5.0f, 0.0f),             //Marble Position
     Eigen::Vector3f(0.0f, -5.0f, 0.0f),              //Flag Position
-    -55.5f,                                           //Death Barrier
+    -55.5f,                                          //Death Barrier
     true,                                            //Is Planet
-    "The Power Of The Mind"),                                //Description
+    "The Power Of The Mind"),                        //Description
   
   //Level 8
   Level(
@@ -119,8 +119,8 @@ const Level all_levels[num_levels] = {
   Level(
     1.81f, -4.84f, -2.99f,                           //Scale, Angle1, Angle2
     Eigen::Vector3f(-2.905f, 0.765f, -4.165f),       //Offset
-    Eigen::Vector3f(0.75f, 0.50f, 0.55f),            //Color
-    0.022f,                                          //Marble Radius
+    Eigen::Vector3f(-0.75f, 0.55f, 0.55f),           //Color
+    0.0175f,                                         //Marble Radius
     -1.570796f,                                      //Start Look Direction
     4.5f,                                            //Orbit Distance
     Eigen::Vector3f(-4.63064f, 3.6365f, 0.0f),       //Marble Position
@@ -133,7 +133,7 @@ const Level all_levels[num_levels] = {
   Level(
     1.93f, 1.34637f, 1.58f,                          //Scale, Angle1, Angle2
     Eigen::Vector3f(-2.31f, 1.123f, 1.56f),          //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(-0.75f, -0.15f, 0.50f),          //Color
     0.02f,                                           //Marble Radius
     -2.39681f,                                       //Start Look Direction
     2.7f,                                            //Orbit Distance
@@ -148,7 +148,7 @@ const Level all_levels[num_levels] = {
   Level(
     1.88f, 1.52f, 4.91f,                             //Scale, Angle1, Angle2
     Eigen::Vector3f(-4.54f, -1.26f, 0.1f),           //Offset
-    Eigen::Vector3f(-1.0f, 0.3f, -0.43f),            //Color
+    Eigen::Vector3f(-1.0f, 0.35f, -0.45f),           //Color
     0.03f,                                           //Marble Radius
     -1.570796f,                                      //Start Look Direction
     5.7f,                                            //Orbit Distance
@@ -162,7 +162,7 @@ const Level all_levels[num_levels] = {
   Level(
     1.6f, 3.77f, 3.93f,                              //Scale, Angle1, Angle2
     Eigen::Vector3f(-2.0f, -0.41f, -1.43f),          //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.45f, 0.40f, 0.05f),            //Color
     0.02f,                                           //Marble Radius
     -1.570796f,                                      //Start Look Direction
     3.5f,                                            //Orbit Distance
@@ -171,13 +171,13 @@ const Level all_levels[num_levels] = {
     -1.0f,                                           //Death Barrier
     false,                                           //Is Planet
     "Lizardo",                                       //Description
-    0.02f, 0.0f, 0.0f),                              //Animation
+    0.0555f, 0.0f, 0.0f),                            //Animation
 
   //Level 13
   Level(
     2.08f, -4.79f, 3.16f,                            //Scale, Angle1, Angle2
     Eigen::Vector3f(-7.43f, 5.96f, -6.23f),          //Offset
-    Eigen::Vector3f(0.16f, 0.38f, 0.15f),            //Color
+    Eigen::Vector3f(0.00f, -0.35f, 0.75f),           //Color
     0.023f,                                          //Marble Radius
     1.570796f,                                       //Start Look Direction
     7.6f,                                            //Orbit Distance
@@ -185,13 +185,14 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, 6.72f, 0.0f),              //Flag Position
     -7.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Run"),                                          //Description
+    "Run",
+	0.005, 0.0035, 0.15),                      
 
   //Level 14
   Level(
     2.0773f, -9.66f, -1.34f,                         //Scale, Angle1, Angle2
     Eigen::Vector3f(-1.238f, -1.533f, 1.085f),       //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.69f, -0.69f, 0.69f),           //Color
     0.01f,                                           //Marble Radius
     1.4f,                                            //Start Look Direction
     3.0f,                                            //Orbit Distance
@@ -219,7 +220,7 @@ const Level all_levels[num_levels] = {
   Level(
     2.0773f, -9.66f, -1.34f,                         //Scale, Angle1, Angle2
     Eigen::Vector3f(-1.238f, -1.533f, 1.085f),       //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(-0.420f, 0.40f, 0.20f),          //Color
     0.005f,                                          //Marble Radius
     0.78539816339f,                                  //Start Look Direction
     2.0f,                                            //Orbit Distance
@@ -227,12 +228,13 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(-1.04172f, 1.414f, -1.09742f),   //Flag Position
     -2.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Top Of The World"),                             //Description
+    "Top Of The World",
+	0.0f, 0.05f, 0.0f),                       
 
   Level(
     1.8093f, -3.165f, -3.2094777f,                   //Scale, Angle1, Angle2
     Eigen::Vector3f(-1.0939f, -0.43495f, -3.1113f),  //Offset
-    Eigen::Vector3f(-0.61f, -0.92f, 0.33f),          //Color
+    Eigen::Vector3f(0.77f, 0.77f, -0.33f),           //77 + 33 = 100
     0.005f,                                          //Marble Radius
     0.0f,                                            //Start Look Direction
     5.0f,                                            //Orbit Distance
@@ -259,7 +261,7 @@ const Level all_levels[num_levels] = {
   Level(
     1.91f, 0.06f, -0.76f,                            //Scale, Angle1, Angle2
     Eigen::Vector3f(-3.44f, -0.69f, -1.14f),         //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.75f, 0.40f, 0.20f),            //Color
     0.012f,                                          //Marble Radius
     3.14159f,                                        //Start Look Direction
     5.0f,                                            //Orbit Distance
@@ -268,12 +270,12 @@ const Level all_levels[num_levels] = {
     -999.0f,                                         //Death Barrier
     true,                                            //Is Planet
     "OOO Pretty",                                    //Description
-    0.0f, 0.05f, 0.0f),                              //Animation
+    0.0f, 0.15f, 0.05f),                             //Animation
 
   Level(
     1.8986f, -0.4166f, 0.00683f,                     //Scale, Angle1, Angle2
     Eigen::Vector3f(-2.5130f, -5.4067f, -2.51f),     //Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.45f, -0.30f, 0.30f),           //Color
     0.01f,                                           //Marble Radius
     -1.570796f,                                      //Start Look Direction
     5.0f,                                            //Orbit Distance
@@ -287,19 +289,20 @@ const Level all_levels[num_levels] = {
     2.03413f, 1.688f, -1.57798f,                     //Scale, Angle1, Angle2
     Eigen::Vector3f(-4.803822f, -4.1f, -1.39063f),   //Offset
     Eigen::Vector3f(-0.95f, -0.16f, 0.14f),          //Color
-    0.020055f,                                       //Marble Radius
+    0.010055f,                                       //Marble Radius
     1.570796f,                                       //Start Look Direction
     7.0f,                                            //Orbit Distance
     Eigen::Vector3f(3.77655f, 4.7211f, 0.0f),        //Marble Position
     Eigen::Vector3f(-3.77655f, 4.716f, 0.0f),        //Flag Position
     -5.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "BOUNCE!!"),                                     //Description
+    "BOUNCE!!",
+	0.03f, -0.03f, 0.03f),                        
 
   Level(
     1.6516888f, 0.026083898f, -0.7996324f,           //Scale, Angle1, Angle2
     Eigen::Vector3f(-3.85863f, -5.13741f, -0.918303f),//Offset
-    Eigen::Vector3f(0.42f, 0.38f, 0.19f),            //Color
+    Eigen::Vector3f(0.45f, -0.35f, 0.20f),           //Color
     0.016f,                                          //Marble Radius
     0.0f,                                            //Start Look Direction
     7.0f,                                            //Orbit Distance
@@ -307,20 +310,22 @@ const Level all_levels[num_levels] = {
     Eigen::Vector3f(0.0f, -1.01f, -3.94f),           //Flag Position
     -6.5f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Rats Raw"),                                     //Description
+    "Rats Raw",                                      //Star War
+	0.0f, 0.0f, -0.05f),                        
 
   Level(
     1.77746f, 4.62318f, 0.0707307f,                  //Scale, Angle1, Angle2
     Eigen::Vector3f(-4.6867f, -0.84376f, 1.98158f),  //Offset
-    Eigen::Vector3f(-0.35f, 1.5f, 0.48f),            //Color
-    0.016f,                                          //Marble Radius
+    Eigen::Vector3f(0.55f, -0.5f, 0.15f),            //Color
+    0.010f,                                          //Marble Radius
     1.570796f,                                       //Start Look Direction
     7.0f,                                            //Orbit Distance
     Eigen::Vector3f(3.03669f, 4.3497f, 0.0f),        //Marble Position
     Eigen::Vector3f(-3.03669f, 4.331f, 0.0f),
 	-5.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Hopscotch"),                                    //Description
+    "Hopscotch",
+	0.0f, 0.05f, 0.0f),                        
 
   Level(
     2.13f, -1.77f, -1.62f,                           //Scale, Angle1, Angle2
@@ -329,11 +334,11 @@ const Level all_levels[num_levels] = {
     0.01f,                                           //Marble Radius
     3.14159f,                                        //Start Look Direction
     6.2f,                                            //Orbit Distance
-    Eigen::Vector3f(0.479104f,  2.18768f, 4.29408f),//Marble Position
-    Eigen::Vector3f(0.479104f,  2.177f, 4.29408f),
+    Eigen::Vector3f(0.479104f, 2.35f, 4.5f),         //Marble Position
+    Eigen::Vector3f(0.479104f, 2.35f, -4.5f),
 	-4.0f,                                           //Death Barrier
     false,                                           //Is Planet
-    "Skeletal Plates"),                                  //Description
+    "Skeletal Plates"),                              //Description
   
   Level(
 	1.95f, 1.5f, 0.0f,
@@ -345,7 +350,7 @@ const Level all_levels[num_levels] = {
 	Eigen::Vector3f(0.0f, 3.96637f, 4.54647f),	
 	Eigen::Vector3f(0.0f, 0.396f, -2.38815f),
 	-9.0f,
-	false,
+	true,
 	"The Revenge Of The Sponge",
 	0.0f, 0.2f, 0.0f)
 };
