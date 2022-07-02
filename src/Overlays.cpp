@@ -224,7 +224,7 @@ void Overlays::DrawCredits(sf::RenderWindow& window, bool fullrun, int t) {
   const char* txt =
     "THANK YOU FOR PLAYING\n\n\n\n"
     "As a reward, cheats have been unlocked!\n"
-    "Activate them with the F1 key during gameplay.\n\n";
+    "Activate them with the F7 key during gameplay.\n\n";
 
   sf::Text text;
   MakeText(txt, 100, 100, 44, sf::Color::White, text);
@@ -245,7 +245,8 @@ void Overlays::DrawMidPoint(sf::RenderWindow& window, bool fullrun, int t) {
     "            You've done well so far.\n\n\n\n"
     "      But this is only the beginning.\n"
     "If you need a quick break, take it now.\n"
-    "The challenge levels are coming up...";
+    "The challenge levels are coming up...\n\n\n"
+	"Press `W` to continue";
   sf::Text text;
   MakeText(txt, 205, 100, 44, sf::Color::White, text);
   text.setLineSpacing(1.3f);

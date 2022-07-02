@@ -140,7 +140,7 @@ int main(int argc, char *argv[]) {
 #ifdef _WIN32
   const std::string save_dir = std::string(std::getenv("APPDATA")) + "\\Glass";
 #else
-  const std::string save_dir = std::string(std::getenv("HOME")) + "/.GLass";
+  const std::string save_dir = std::string(std::getenv("HOME")) + "/.Glass";
 #endif
   
   if (!DirExists(save_dir.c_str())) {
@@ -274,7 +274,7 @@ int main(int argc, char *argv[]) {
           if (game_mode == PLAYING) {
             scene.ResetLevel();
           }
-        } else if (keycode == sf::Keyboard::F1) {
+        } else if (keycode == sf::Keyboard::F7) {
           if (game_mode == PLAYING && high_scores.HasCompleted(num_levels - 1)) {
             show_cheats = !show_cheats;
             scene.EnbaleCheats();
